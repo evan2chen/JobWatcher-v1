@@ -274,10 +274,19 @@ def stage(outdir, now_ts=None):
 
 
 def main(argv):
-    if len(argv) != 2:
-        print("usage: python tests/fixture.py <outdir>", file=sys.stderr)
+    tree_only = "--tree-only" in argv
+    args = [a for a in argv[1:] if a != "--tree-only"]
+    if len(args) != 1:
+        print("usage: python tests/fixture.py [--tree-only] <outdir>", file=sys.stderr)
         return 2
-    print(json.dumps(stage(os.path.abspath(argv[1])), indent=2))
+    outdir = os.path.abspath(args[0])
+    if tree_only:
+        shutil.rmtree(outdir, ignore_errors=True)
+        os.makedirs(outdir, exist_ok=True)
+        build_web_tree(outdir, int(time.time()))
+        print(json.dumps({"root": outdir}))
+        return 0
+    print(json.dumps(stage(outdir), indent=2))
     return 0
 
 
