@@ -14,7 +14,7 @@ SUITES = [
      [sys.executable, "jw/test_home.py"], REPO),
     ("jw ingest, collectors and legacy parity", [sys.executable, "jw/test_ingest.py"], REPO),
     ("web typecheck", ["npm", "run", "typecheck"], WEB),
-    ("web logic smoke (live corpus)", ["npm", "run", "smoke"], WEB),
+    ("web logic smoke (fixture corpus)", ["npm", "run", "smoke"], WEB),
 ]
 
 BROWSER_SUITE = ("web E2E (Playwright)", ["npm", "run", "e2e"], WEB)

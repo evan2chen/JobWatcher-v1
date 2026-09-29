@@ -1,4 +1,6 @@
-import { readFileSync } from "node:fs";
+import { execFileSync } from "node:child_process";
+import { mkdtempSync, readFileSync, rmSync } from "node:fs";
+import { tmpdir } from "node:os";
 import { join } from "node:path";
 
 import { decodePosting, type Company, type RawPosting } from "../src/lib/types";
@@ -6,7 +8,15 @@ import { PRESET_PROFILES, matchesProfile, rankAll } from "../src/lib/profiles";
 import { EMPTY_FILTERS, applyFilters, filtersFromProfile, filtersToQuery, filtersFromQuery } from "../src/lib/filters";
 
 const repo = join(process.cwd(), "..");
-const read = <T>(p: string): T => JSON.parse(readFileSync(join(repo, p), "utf-8")) as T;
+const scratch = mkdtempSync(join(tmpdir(), "jw-smoke-"));
+const { root } = JSON.parse(
+  execFileSync("python", [join(repo, "tests", "fixture.py"), "--tree-only", join(scratch, "repo")], {
+    cwd: repo,
+    encoding: "utf-8",
+  }),
+) as { root: string };
+process.on("exit", () => rmSync(scratch, { recursive: true, force: true }));
+const read = <T>(p: string): T => JSON.parse(readFileSync(join(root, p), "utf-8")) as T;
 
 const index = read<{ companies: Company[] }>("tracker/index.json");
 const corpus = read<{ count: number; postings: RawPosting[] }>("tracker/all_postings.json");
