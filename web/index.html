@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JobWatcher</title>
+  <meta name="description" content="Tracked company postings and a profile-driven must-apply list.">
+  <!-- Apply the saved theme before first paint so a dark-mode reload doesn't flash white. -->
+  <script>
+    try {
+      var t = localStorage.getItem("jw-theme");
+      if (t) document.documentElement.setAttribute("data-theme", t);
+    } catch (e) { /* private mode: fall back to prefers-color-scheme */ }
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

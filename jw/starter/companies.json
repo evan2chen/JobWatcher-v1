@@ -1,0 +1,456 @@
+[
+  {
+    "id": "anthropic",
+    "display_name": "Anthropic",
+    "tier": "S",
+    "careers_url": "https://www.anthropic.com/careers",
+    "levels_url": "https://levels.fyi/companies/anthropic",
+    "aliases": {
+      "*": [
+        "Anthropic"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "citadel",
+    "display_name": "Citadel",
+    "tier": "S",
+    "careers_url": "https://www.citadel.com/careers/",
+    "levels_url": "https://levels.fyi/companies/citadel",
+    "aliases": {
+      "*": [
+        "Citadel",
+        "Citadel Securities"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "deepmind",
+    "display_name": "DeepMind",
+    "tier": "S",
+    "careers_url": "",
+    "levels_url": null,
+    "aliases": {
+      "*": [
+        "DeepMind",
+        "Google DeepMind",
+        "Deepmind"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "google",
+    "display_name": "Google",
+    "tier": "S",
+    "careers_url": "https://www.google.com/about/careers/applications/jobs/results/",
+    "levels_url": "https://levels.fyi/companies/google",
+    "aliases": {
+      "*": [
+        "Google",
+        "Google LLC",
+        "Alphabet"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "hudson-river-trading",
+    "display_name": "Hudson River Trading",
+    "tier": "S",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/hudson-river-trading",
+    "aliases": {
+      "*": [
+        "Hudson River Trading",
+        "HRT"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "jane-street",
+    "display_name": "Jane Street",
+    "tier": "S",
+    "careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
+    "levels_url": "https://levels.fyi/companies/jane-street",
+    "aliases": {
+      "*": [
+        "Jane Street",
+        "Jane Street Capital"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "jump-trading",
+    "display_name": "Jump Trading",
+    "tier": "S",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/jump-trading",
+    "aliases": {
+      "*": [
+        "Jump Trading"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "nvidia",
+    "display_name": "NVIDIA",
+    "tier": "S",
+    "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+    "levels_url": "https://levels.fyi/companies/nvidia",
+    "aliases": {
+      "*": [
+        "NVIDIA"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "openai",
+    "display_name": "OpenAI",
+    "tier": "S",
+    "careers_url": "https://openai.com/careers/",
+    "levels_url": "https://levels.fyi/companies/openai",
+    "aliases": {
+      "*": [
+        "OpenAI"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "waymo",
+    "display_name": "Waymo",
+    "tier": "S",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/waymo",
+    "aliases": {
+      "*": [
+        "Waymo"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "airbnb",
+    "display_name": "Airbnb",
+    "tier": "A",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/airbnb",
+    "aliases": {
+      "*": [
+        "Airbnb"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "amazon",
+    "display_name": "Amazon",
+    "tier": "A",
+    "careers_url": "https://www.amazon.jobs/",
+    "levels_url": "https://levels.fyi/companies/amazon",
+    "aliases": {
+      "*": [
+        "Amazon",
+        "Amazon Web Services",
+        "AWS"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "apple",
+    "display_name": "Apple",
+    "tier": "A",
+    "careers_url": "https://jobs.apple.com/",
+    "levels_url": "https://levels.fyi/companies/apple",
+    "aliases": {
+      "*": [
+        "Apple"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "coinbase",
+    "display_name": "Coinbase",
+    "tier": "A",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/coinbase",
+    "aliases": {
+      "*": [
+        "Coinbase"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "databricks",
+    "display_name": "Databricks",
+    "tier": "A",
+    "careers_url": "https://www.databricks.com/company/careers",
+    "levels_url": "https://levels.fyi/companies/databricks",
+    "aliases": {
+      "*": [
+        "Databricks"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "meta",
+    "display_name": "Meta",
+    "tier": "A",
+    "careers_url": "https://www.metacareers.com/jobs",
+    "levels_url": "https://levels.fyi/companies/facebook",
+    "aliases": {
+      "*": [
+        "Meta",
+        "Meta Platforms",
+        "Facebook"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "microsoft",
+    "display_name": "Microsoft",
+    "tier": "A",
+    "careers_url": "https://jobs.careers.microsoft.com/",
+    "levels_url": "https://levels.fyi/companies/microsoft",
+    "aliases": {
+      "*": [
+        "Microsoft"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "netflix",
+    "display_name": "Netflix",
+    "tier": "A",
+    "careers_url": "https://jobs.netflix.com/",
+    "levels_url": "https://levels.fyi/companies/netflix",
+    "aliases": {
+      "*": [
+        "Netflix"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "stripe",
+    "display_name": "Stripe",
+    "tier": "A",
+    "careers_url": "https://stripe.com/jobs",
+    "levels_url": "https://levels.fyi/companies/stripe",
+    "aliases": {
+      "*": [
+        "Stripe"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "two-sigma",
+    "display_name": "Two Sigma",
+    "tier": "A",
+    "careers_url": "https://careers.twosigma.com/",
+    "levels_url": "https://levels.fyi/companies/two-sigma",
+    "aliases": {
+      "*": [
+        "Two Sigma"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "uber",
+    "display_name": "Uber",
+    "tier": "A",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/uber",
+    "aliases": {
+      "*": [
+        "Uber"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "snowflake",
+    "display_name": "Snowflake",
+    "tier": "A",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/snowflake",
+    "aliases": {
+      "*": [
+        "Snowflake"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "adobe",
+    "display_name": "Adobe",
+    "tier": "B",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/adobe",
+    "aliases": {
+      "*": [
+        "Adobe"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "cloudflare",
+    "display_name": "Cloudflare",
+    "tier": "B",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/cloudflare",
+    "aliases": {
+      "*": [
+        "Cloudflare"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "datadog",
+    "display_name": "Datadog",
+    "tier": "B",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/datadog",
+    "aliases": {
+      "*": [
+        "Datadog"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "figma",
+    "display_name": "Figma",
+    "tier": "B",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/figma",
+    "aliases": {
+      "*": [
+        "Figma"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "github",
+    "display_name": "GitHub",
+    "tier": "B",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/github",
+    "aliases": {
+      "*": [
+        "GitHub"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "palantir",
+    "display_name": "Palantir",
+    "tier": "B",
+    "careers_url": "https://www.palantir.com/careers/",
+    "levels_url": "https://levels.fyi/companies/palantir",
+    "aliases": {
+      "*": [
+        "Palantir",
+        "Palantir Technologies"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "tesla",
+    "display_name": "Tesla",
+    "tier": "B",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/tesla",
+    "aliases": {
+      "*": [
+        "Tesla"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "salesforce",
+    "display_name": "Salesforce",
+    "tier": "B",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/salesforce",
+    "aliases": {
+      "*": [
+        "Salesforce"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "capital-one",
+    "display_name": "Capital One",
+    "tier": "C",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/capital-one",
+    "aliases": {
+      "*": [
+        "Capital One"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "cisco",
+    "display_name": "Cisco",
+    "tier": "C",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/cisco",
+    "aliases": {
+      "*": [
+        "Cisco"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "goldman-sachs",
+    "display_name": "Goldman Sachs",
+    "tier": "C",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/goldman-sachs",
+    "aliases": {
+      "*": [
+        "Goldman Sachs"
+      ]
+    },
+    "notes": ""
+  },
+  {
+    "id": "ibm",
+    "display_name": "IBM",
+    "tier": "C",
+    "careers_url": "",
+    "levels_url": "https://levels.fyi/companies/ibm",
+    "aliases": {
+      "*": [
+        "IBM"
+      ]
+    },
+    "notes": ""
+  }
+]

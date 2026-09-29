@@ -1,0 +1,7 @@
+include LICENSE
+include CONTRIBUTING.md
+include SECURITY.md
+include docs/index.html
+recursive-include docs/assets *
+include jw/starter/*.json
+include jw/guide/*.md

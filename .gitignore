@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Web app (source in web/, build output IS committed to docs/)
+node_modules/
+web/node_modules/
+
+# Local test fixtures / scratch snapshots (never commit the 11MB upstream files)
+*.snapshot.json
+/tmp/
+summer.json
+newgrad.json
+
+# SQLite working store: host state, not repo state (docs/self-hosting.md)
+jobwatcher.db
+jobwatcher.db-wal
+jobwatcher.db-shm
+
+# setuptools build metadata from `pip install -e .`
+*.egg-info/
+
+# Playwright: staged fixture, traces, screenshots (rebuilt on every run)
+web/e2e/.fixture/
+web/test-results/
+web/playwright-report/
+
+# Packaging output
+build/
+dist/

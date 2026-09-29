@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jobwatcher"
+version = "0.3.0"
+description = "Agent-oriented job tracking: postings, applications, collectors, a CLI and a local site"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "evan2chen"}]
+requires-python = ">=3.9"
+dependencies = []
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+jw = "jw.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["jw*"]
+
+[tool.setuptools.package-data]
+jw = ["starter/*.json"]
+"jw.guide" = ["*.md"]
